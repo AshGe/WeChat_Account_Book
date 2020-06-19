@@ -1,0 +1,72 @@
+.more_title{
+   margin:0 auto;
+   margin-top: 75rpx;
+   text-align:center;
+   font-size: 36rpx;
+   }
+.title_contanier{
+  display: flex;
+  flex-direction: row;
+}
+.more_main{
+   width: 100%;
+   background-color: grey;
+}
+/* pages/user/user.wxss */
+.avatar-wrapper {
+  background: #808080;
+  padding: 25px 0;
+}
+ 
+.avatar-wrapper .avatar {
+  margin: 0 auto;
+  text-align: center;
+}
+ 
+.avatar-wrapper .avatar image {
+  width: 100px;
+  height: 100px;
+}
+ 
+.avatar-wrapper .text {
+  text-align: center;
+  color: #fff;
+}
+ 
+.listimg image {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+ 
+.content{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
+/*分割线样式*/
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+ 
+.arrows image{
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-left: 480rpx;
+}
+ 
+/* user.wxss */
+.four_images{
+  margin-left: 25rpx;
+}
+.navigator-hover {
+    color:red;
+}
+.btn-area {
+  margin: 1.17647059em 15px 0.3em;
+}

@@ -1,0 +1,47 @@
+<view>
+  <view class='more_main' style='height:{{200}}px'>
+  <view class='title_contanier'>
+  <text class="more_title">Let's start the bookkeeping</text>
+  </view>
+  </view>
+</view>
+
+<view class="account-container">
+    <form catchsubmit="formSubmit" >
+      <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" placeholder="记账备注" name="inputdetail"  type="text" />
+      </view>
+      </view>
+      <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input"> 
+        <input class="weui-input" placeholder="记账数额" name="inputamount" type="digit" />
+      </view>
+      </view>    
+      <view>   
+        <button class="button_Reset" formType="reset" type="primary" size="mini"> 重置 </button>          
+        <button class="button_OK" formType="submit" type="primary" size="mini" loading="{{buttonLoading}}"> 记账 </button>     
+      </view>
+    </form>
+</view>
+
+    <view class="page-section">
+    <view  class="weui-cells__title">
+      <text>账单列表:</text>
+      <text  class="account-list-all-amount">合计:{{accountTotal}}</text>      
+    </view>
+    </view> 
+
+    <block wx:for="{{accountData}}" >
+      <view class="account-list">
+        <view class="account-list-detail">
+          {{item.detail}}
+        </view>
+        <view class="account-list-amount">
+          {{item.amount}}
+        </view>
+        <view class="account-list-del">
+            <button size="mini" type="warn" data-index-key="{{index}}" bindtap="deleteRow">删除</button>
+        </view>
+      </view>
+    </block>

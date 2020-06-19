@@ -1,0 +1,19 @@
+<view>
+  <view class='more_main' style='height:{{navH}}px'>
+  <view class='title_contanier'>
+  <text class="more_title"> 设置预算 </text>
+  </view>
+  </view>
+</view>
+<view class="page-section">
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="digit" placeholder="请输入预算金额"/>
+      </view>
+    </view>
+</view>
+<button class="button_OK" size="mini" type="primary">确定</button>
+<button class="button_OK button_Cancel" size="mini">取消</button>
+<view class="section__ctn">
+        <image style="background-color: #eeeeee;" mode="scaleToFill" src="../images/we.jpg"></image>
+</view>  

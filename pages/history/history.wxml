@@ -1,0 +1,12 @@
+<view>
+  <view class='more_main' style='height:{{navH}}px'>
+  <view class='title_contanier'>
+  <text class="more_title">历史账单</text>
+  </view>
+  </view>
+</view>
+<view class="section">
+  <picker mode="date" value="{{date}}" start="2015-01-01" end="2025-01-01" bindchange="bindDateChange">
+    <view class="picker"> 请选择历史日期:<button type="primary">{{date}}</button></view>
+  </picker>
+</view>

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/account/account",
+    "pages/history/history",
+    "pages/me/me",
+    "pages/monthBudget/monthBudget"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#a9b7b7", 
+    "selectedColor": "#11cd6e", 
+    "borderStyle": "white", 
+    "list": [
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "pages/images/historybefore.png",
+        "selectedIconPath": "pages/images/historyafter.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "记账",
+        "iconPath": "pages/images/accountbefore.png",
+        "selectedIconPath": "pages/images/accountafter.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/images/mebefore.png",
+        "selectedIconPath": "pages/images/meafter.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,97 @@
+page {
+  line-height: 1.6;
+  font-family: -apple-system-font, "Helvetica Neue", sans-serif;
+}
+.account-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  box-sizing: border-box;
+}
+.page-section{
+  margin-bottom: 20rpx;
+}
+.weui-cells_after-title {
+  margin-top: 0;
+}
+.weui-cells {
+  position: relative;
+  margin-top: 1.17647059em;
+  background-color: whitesmoke;
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+.weui-cells__title {
+  margin-top: .77em;
+  margin-bottom: .3em;
+  padding-left: 20px;
+  padding-right: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+.weui-cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.weui-cell_input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.weui-input {
+  height: 2.58823529em;
+  min-height: 2.58823529em;
+  line-height: 2.58823529em;
+}
+.more_title{
+   margin:0 auto;
+   margin-top: 75rpx;
+   text-align:center;
+   font-size: 36rpx;
+   }
+.title_contanier{
+  display: flex;
+  flex-direction: row;
+}
+.more_main{
+   width: 100%;
+   background-color: yellow;
+}
+.button_Reset{
+  margin: 0 auto;
+  margin-top: 75rpx;
+  text-align: left;
+  font-size: 36rpx;
+  margin-left:85rpx;
+}
+.button_OK{
+  margin-left: 40rpx;
+}
+.account-list-text{
+    color:gray;
+    margin:30rpx 0 0 30rpx;
+}
+.account-list-all-amount{
+  padding-left: 200px;
+}
+.account-list{
+    color:gray;
+    margin:30rpx 0 0 30rpx;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(195, 245, 179);
+    line-height: 70rpx;
+}
+.account-list-detail{
+    flex:1;
+}
+.account-list-amount{
+    width: 100rpx;
+}
